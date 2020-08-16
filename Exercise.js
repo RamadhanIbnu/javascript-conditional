@@ -45,3 +45,92 @@ if(nilaiPertama === nilaiKedua){
 else{
     alert("nilai " +nilaiPertama+ " lebih kecil dari nilai " +nilaiKedua);
 }
+
+/*
+soal no.3
+
+Gunakan switch case untuk mengetahui nama hari berdasarkan angka.
+
+Hari minggu dimulai dari angka 1 dan seterusnya */
+
+let nomerHari = parseInt(prompt(" masukan nomer hari yang ingin anda ketahui? "));
+
+switch (nomerHari){
+    case 1: {
+        alert("hari nomer " + nomerHari + " adalah hari MINGGU.");
+        break;
+    }
+    case 2: {
+        alert("hari nomer " + nomerHari + " adalah hari SENIN.");
+        break;
+    }
+    case 3: {
+        alert("hari nomer " + nomerHari + " adalah hari SELASA.");
+        break;
+    }
+    case 4: {
+        alert("hari nomer " + nomerHari + " adalah hari RABU.");
+        break;
+    }
+    case 5: {
+        alert("hari nomer " + nomerHari + " adalah hari KAMIS.");
+        break;
+    }
+    case 6: {
+        alert("hari nomer " + nomerHari + " adalah hari JUMAT.");
+        break;
+    }
+    case 7: {
+        alert("hari nomer " + nomerHari + " adalah hari SABTU.");
+        break;
+    }
+    default: {
+        alert("maaf data " +nomerHari+ " yang anda masukan tidak termasuk dalam nomer hari!")
+    }
+}
+
+/*
+soal no.4
+
+Gunakan switch case untuk membuat sebuah game sederhana.
+
+UP -> Karakter berjalan keatas
+
+RIGHT -> Karakter berjalan kekanan
+
+BOTTOM -> Karakter berjalan kebawah
+
+LEFT -> Karakter berjalan kekiri */
+
+let arahKarakter = prompt("masukan arah tujuan karakter anda: ");
+
+switch (arahKarakter){
+    case "UP": {
+        alert("Karakter anda berjalan keatas");
+        break;
+    }
+    case "RIGHT": {
+        alert("Karakter anda berjalan kekanan");
+        break;
+    }
+    case "BOTTOM": {
+        alert("Karakter anda berjalan kebawah");
+        break;
+    }
+    case "LEFT": {
+        alert("Karakter anda berjalan kekiri");
+        break;
+    }
+    default: {
+        alert("maaf perintah yang anda masukan salah!");
+    }
+}
+
+
+
+
+
+
+
+
+
